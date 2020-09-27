@@ -9,6 +9,12 @@ Should you have any other concerns while using this theme, please feel free to c
 
 ##### Features:
 - 4 homepage
+    - Default
+    - Fashion
+    - Healthy
+    - Sport
+    - Tech
+    - Video
 - 30+ block
 - Google ads options
 - Responsive
