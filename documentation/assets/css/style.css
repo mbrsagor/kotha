@@ -1,0 +1,342 @@
+/**
+ * LINEMAG Documentation
+**/
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Montserrat-regular/Montserrat-regular.eot');
+    src: url('../fonts/Montserrat-regular/Montserrat-regular.eot?#iefix') format('embedded-opentype'),
+    local('Montserrat-Regular'),
+    local('Montserrat-regular'),
+    url('../fonts/Montserrat-regular/Montserrat-regular.woff2') format('woff2'),
+    url('../fonts/Montserrat-regular/Montserrat-regular.woff') format('woff'),
+    url('../fonts/Montserrat-regular/Montserrat-regular.ttf') format('truetype'),
+    url('../fonts/Montserrat-regular/Montserrat-regular.svg#Montserrat') format('svg');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/Montserrat-700/Montserrat-700.eot');
+    src: url('../fonts/Montserrat-700/Montserrat-700.eot?#iefix') format('embedded-opentype'),
+    local('Montserrat-Bold'),
+    local('Montserrat-700'),
+    url('../fonts/Montserrat-700/Montserrat-700.woff2') format('woff2'),
+    url('../fonts/Montserrat-700/Montserrat-700.woff') format('woff'),
+    url('../fonts/Montserrat-700/Montserrat-700.ttf') format('truetype'),
+    url('../fonts/Montserrat-700/Montserrat-700.svg#Montserrat') format('svg');
+}
+
+body {
+    color: #111;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #1e79a7;
+}
+
+p {
+    color: #333;
+    margin: 15px 0;
+}
+
+.tech {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    max-width: 750px;
+    height: auto;
+    margin: 30px 0;
+}
+
+.tech li {
+    margin-bottom: 3px;
+}
+
+.main {
+    position: absolute;
+    right: 50px;
+    left: 260px;
+    min-height: 100%;
+    height: auto;
+}
+
+.thankyou {
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    float: right;
+}
+
+.star {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.msg {
+    padding: 18px;
+    margin: 18px 0;
+    background: #ffffe0;
+    border: 1px solid #e6db55;
+}
+
+#nav {
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+code {
+    background-color: #b38657;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+/* -- Side Menu
+--------------------------------------- */
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    min-height: 100%;
+    background: #26282A;
+    color: #8C919A;
+    width: 220px;
+}
+
+aside a {
+    padding: 10px 16px 10px 5px;
+    display: block;
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #eee;
+    outline: none !important;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+aside li a:hover, aside li a:focus, aside li.current a {
+    color: #F7CA18;
+}
+
+aside li {
+    text-align: left;
+    line-height: 1;
+    border-bottom: 1px dashed #2F3133;
+}
+
+pre {
+    font-style: oblique;
+    background-color: #FFFFDC;
+    padding: 30px;
+    line-height: 1.2;
+}
+
+/* -- Section
+--------------------------------------- */
+section {
+    margin-bottom: 45px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.2;
+}
+
+section h1 {
+    padding-top: 100px;
+}
+
+section h1 + h2 {
+    padding-top: 0;
+}
+
+section h2 {
+    padding-top: 50px;
+    padding-bottom: 18px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #333;
+    text-transform: capitalize;
+}
+
+section h3 {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.block h2 {
+    font-size: 25px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    padding: 0;
+    border: none;
+}
+
+.block-title {
+    padding-bottom: 10px !important;
+    border-bottom: 1px solid #eee !important;
+    color: #87c77b;
+    font-weight: 300;
+}
+
+section .block {
+   position: relative;
+    display: block;
+    line-height: 22px;
+    max-width: 760px;
+
+}
+
+.block pre {
+    display: block;
+    margin: 1em 0 1.5em 0;
+    padding: 15px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #e3ffe1;
+    clear: both;
+}
+
+.single-title {
+    display: block;
+    margin-bottom: 45px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #242424;
+    color: #87c77b;
+    font-weight: 300;
+    font-size: 32px
+}
+
+section .block:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+section .note {
+    margin: 24px 0 0 0;
+}
+
+section .note p {
+    color: #777 !important;
+}
+
+section .block li {
+    margin-bottom: 15px;
+}
+
+.copy {
+    margin-bottom: 30px;
+}
+
+ul, ol {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.shortcode-divider {
+    display: block;
+    width: 100%;
+    clear: both;
+    border-top: 2px solid #eee;
+    margin-top: 45px;
+    margin-bottom: 45px
+}
+
+.shortcode-note {
+    display: block;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding: 15px 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #fffedf
+}
+
+.block-attachment {
+    position: relative;
+    display: block;
+    margin-bottom: 30px
+}
+
+.block-attachment img {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: auto
+}
+
+.block ul, .block ol {
+    margin-bottom: 2em
+}
+
+.block a:not(button) {
+    color: #87c77b;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s
+}
+
+.block a:not(button):hover, .block a:not(button):focus {
+    text-decoration: underline
+}
+
+.block img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle
+}
+
+.block .aligncenter, .block .aligncenter img {
+    display: block;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-left: auto;
+    max-width: 100% !important
+}
+
+.block .alignleft, .block img.alignleft {
+    float: left;
+    margin-top: .5em;
+    margin-right: 2em;
+    margin-bottom: 1.25em;
+    margin-left: 0;
+    max-width: 300px
+}
+
+.block .alignright, .block img.alignright {
+    float: right;
+    margin-top: .5em;
+    margin-right: 0;
+    margin-bottom: 1.25em;
+    margin-left: 2em;
+    max-width: 300px
+}
+
+.block .alignnone, .block img.alignnone {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: auto !important
+}
