@@ -22,4 +22,4 @@ Should you have any other concerns while using this theme, please feel free to c
 > Please go to the documenation folder and open `index.html` file where has added full theme setup and documenation.
 
 #### Demo:
-()[https://res.cloudinary.com/mbrsagor/image/upload/v1601195327/screencapture-gaibandha-live-2020-09-27-14_25_20_kgwotq.png]
+[](https://res.cloudinary.com/mbrsagor/image/upload/v1601195327/screencapture-gaibandha-live-2020-09-27-14_25_20_kgwotq.png)
