@@ -40,7 +40,7 @@ DEFAULT_APPS = [
 ]
 
 LOCAL_APPS = [
-    'accounts'
+    'accounts',
 ]
 
 INSTALLED_APPS = DEFAULT_APPS + LOCAL_APPS
@@ -132,6 +132,9 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# Auth user model
+AUTH_USER_MODEL = 'accounts.User'
 
 # Django Message Framework
 MESSAGE_TAGS = {
